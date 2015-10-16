@@ -1,0 +1,5 @@
+12 4
+together 3 9
+together 5 9
+apart 2 8
+apart 6 8

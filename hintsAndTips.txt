@@ -1,0 +1,29 @@
+
+                                      The Banquet Planning Problem: Hints & Tips
+                                      -------------------------------------------
+
+ 0. Keep it simple. If you have overly complicated or over-engineered code you will loose marks
+
+ 1. Read the choco3 manual and look at the api.
+
+ 2. Make sure variable names make sense and comment your code so that I can understand it
+
+ 3. There are at least 3 different models.
+
+ 4. Maybe consider some simple form of symmetry breaking (see 10 below)
+
+ 5. Beware, some of the problem instances have no solutions
+
+ 6. Make sure your solutions verify okay using the Verify.java code given to you 
+   (do not modify it as this might cause you problems when I mark your code)
+   
+ 7. Is there a pre-processing step that could help solving?
+
+ 8. You do not need to call solver.propagate() before solving.
+
+ 9. Solutions to the hard instances are available in directory "solutions"
+
+10. If a problem instance has a solution then it must have many solutions (see 4 above)
+
+
+Patrick Prosser

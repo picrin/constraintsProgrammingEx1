@@ -1,0 +1,21 @@
+30 5
+together 2 23
+together 4 18
+together 11 21
+together 12 15
+together 12 19
+together 13 24
+together 15 17
+together 15 19
+apart 1 2
+apart 2 26
+apart 5 17
+apart 6 27
+apart 8 10
+apart 11 13
+apart 11 21
+apart 15 25
+apart 17 18
+apart 18 29
+apart 21 22
+apart 21 29

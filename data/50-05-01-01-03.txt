@@ -1,0 +1,23 @@
+50 5
+together 2 21
+together 2 29
+together 2 35
+together 3 17
+together 4 12
+together 4 22
+together 11 27
+together 11 46
+together 13 42
+together 14 28
+together 19 33
+together 20 33
+together 22 26
+together 33 46
+apart 1 45
+apart 2 5
+apart 5 43
+apart 13 18
+apart 14 33
+apart 14 44
+apart 16 26
+apart 23 49

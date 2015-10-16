@@ -1,0 +1,27 @@
+100 20
+together 6 99
+together 10 57
+together 14 95
+together 15 28
+together 16 88
+together 18 85
+together 20 64
+together 22 41
+together 22 48
+together 24 31
+together 26 55
+together 30 39
+together 31 36
+together 35 44
+together 46 50
+together 48 58
+together 51 71
+together 53 74
+together 54 76
+together 57 86
+together 62 76
+together 63 80
+together 64 68
+together 74 98
+together 77 91
+together 85 93

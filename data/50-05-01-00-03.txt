@@ -1,0 +1,5 @@
+50 5
+together 3 28
+together 5 31
+together 19 30
+together 36 37

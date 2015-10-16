@@ -1,0 +1,24 @@
+100 20
+together 3 76
+together 4 28
+together 6 75
+together 21 92
+together 27 61
+together 29 46
+together 33 77
+together 43 91
+together 50 92
+together 69 77
+apart 0 27
+apart 2 15
+apart 5 8
+apart 10 91
+apart 17 56
+apart 17 59
+apart 20 46
+apart 21 88
+apart 24 83
+apart 34 77
+apart 38 69
+apart 52 67
+apart 56 80

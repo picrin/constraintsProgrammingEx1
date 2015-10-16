@@ -1,0 +1,14 @@
+20 5
+together 1 3
+together 1 5
+together 3 9
+together 4 18
+together 5 16
+together 6 14
+together 6 19
+together 10 19
+apart 1 8
+apart 1 9
+apart 1 13
+apart 7 15
+apart 10 19

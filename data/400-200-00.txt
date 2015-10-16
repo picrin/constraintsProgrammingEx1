@@ -1,0 +1,10 @@
+400 200
+together 26 29
+together 89 339
+together 107 390
+together 124 327
+together 210 232
+together 313 347
+apart 96 288
+apart 97 350
+apart 126 380

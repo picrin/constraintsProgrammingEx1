@@ -1,0 +1,27 @@
+40 8
+together 0 34
+together 2 5
+together 2 32
+together 6 30
+together 8 29
+together 12 16
+together 15 23
+together 15 36
+together 17 35
+together 23 27
+together 25 27
+together 25 30
+together 28 30
+together 38 39
+apart 0 12
+apart 1 3
+apart 5 21
+apart 7 19
+apart 10 39
+apart 11 26
+apart 15 25
+apart 16 29
+apart 16 36
+apart 20 28
+apart 24 36
+apart 35 37
