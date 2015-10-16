@@ -1,0 +1,17 @@
+The solution, which I'm proposing is very simple. Each guest is modeled as an IntVar, and the value of each IntVar is modeled to be a table number. The constraint together(i,j) is modeled so that the value of the variable representing guest i has to be arithmetically equal to the value of the variable guest j, and apart(i,j) is modeled so that the values must not be equal. The performance of the solution isn't bad, solving the dataset 60-hard-77-0.txt takes about 2 min 23 seconds on a level4 lab machine.
+
+I wondered whether most-constrained-first heuristic would speed up this model, but I couldn't figure out how to program choco to use this heuristic. My hypothesis is that it would speed it up, because finding a solution only for constrained guests can be very easily turned into a solution for all guests, because non-constrained guests can simply sit at any free table on a first-come first-serve basis.
+
+I have chosen this model because it was very simple. I had an idea for an alternative, more complicated model, but I didn't attempt solving it because the simple solution seemed reasonably good. This alternative model I considered is following:
+1. each table is a set. (SetVar)
+2. each set has cardinality of the table size (cardinality).
+3. each person takes one seat at the table (all_different).
+4. together: if guest A sits at a table, guest B also sits at the table:
+for each table in tables:
+    ifThen(member(A, table), member(B, table))
+5. apart: if person A sits at a table, person B doesn't sit at the table (bool_channel).
+for each table in tables:
+    ifThen(member(A, table), not_member(B, table))
+6. each person sits at at most 1 table at the time (all_disjoint).
+
+Adam Kurkiewicz
