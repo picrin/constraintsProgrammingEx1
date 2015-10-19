@@ -39,7 +39,7 @@ public class BanquetPlanner {
             solver    = new Solver("banquet planner");
             tableSizeIV = VF.enumerated("tableSize", new int[]{tableSize}, solver);
             
-            guests = VariableFactory.enumeratedArray("guests", nGuests, 0, mTables, solver);
+            guests = VariableFactory.enumeratedArray("guests", nGuests, 0, mTables - 1, solver);
             for (int i = 0; i < mTables; i++) {
                 solver.post(ICF.count(i, guests, tableSizeIV));
             }
